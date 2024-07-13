@@ -1,0 +1,8 @@
+<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT2']">
+		<item name="modGunCrossbowReloader"/>
+	</append>
+        <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+                <item name="modGunCrossbowReloaderSchematic"/>
+        </append>
+</configs>
