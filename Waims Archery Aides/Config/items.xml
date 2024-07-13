@@ -1,0 +1,16 @@
+<configs>
+	<append xpath="/items">
+		<item name="modGunCrossbowReloaderSchematic">
+                 	<property name="Extends" value="schematicNoQualityMaster"/>
+                    	<property name="CreativeMode" value="Player"/>
+                    	<property name="CustomIcon" value="modGunCrossbowReloader"/>
+                    	<property name="Unlocks" value="modGunCrossbowReloader"/>
+                    	<effect_group tiered="false">
+                            	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunCrossbowReloader" operation="set" value="1"/>
+                            	<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+                    	</effect_group>
+            	</item>
+	</append>
+	<set xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@name='Action0']/property[@name='Random_item']/@value">"modGunBarrelExtender,modGunCrippleEm,modGunBowArrowRest,modGunLaserSight,modGunReflexSight,modGunRetractingStock,modGunScopeMedium,modGunSoundSuppressorSilencer,modGunTriggerGroupBurst3,modGunShotgunTubeExtenderMagazine,modGunCrossbowReloader"</set>
+        <set xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@name='Action0']/property[@name='Random_item_count']/@value">"1,1,1,1,1,1,1,1,1,1,1"</set>
+</configs>
