@@ -1,0 +1,13 @@
+<configs>
+	<append xpath="/item_modifiers">
+		<item_modifier name="modGunCrossbowReloader" installable_tags="crossbow" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+            		<property name="UnlockedBy" value="modGunCrossbowReloaderSchematic"/>
+			<property name="TraderStageTemplate" value="modsTier2"/>
+            		<effect_group tiered="false">
+                		<passive_effect name="MagazineSize" operation="add" value="1"/>
+                		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.33"/>
+            		</effect_group>
+        	</item_modifier>
+	</append>
+</config>
