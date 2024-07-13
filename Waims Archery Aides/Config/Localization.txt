@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+modGunCrossbowReloaderSchematic,item_modifiers,Mod,,,Crossbow Reloader Mod Schematic,,,,,,,,,,,,,
+modGunCrossbowReloader,item_modifiers,mod,,,Crossbow Reloader Mod,,,,,,,,,,,,,
+modGunCrossbowReloader,item_modifiers,Mod,,,Allows Crossbows to fire a second time without reloading with a penalty reload times,,,,,,,,,,,,,
